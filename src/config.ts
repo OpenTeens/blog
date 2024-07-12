@@ -48,7 +48,7 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'https://openteens.org/img/logo/build/circle.png', // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: '/images/openteens.png', // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'OpenTeens',
   bio: 'Empower Teenagers Through Open Source.',
   links: [
