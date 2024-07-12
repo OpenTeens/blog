@@ -10,6 +10,8 @@ published: 2024-07-11
 image: "./cover.jpg"
 ---
 
+在这里推一手咱的博客：[创新者老王的博客](https://blog.cxzlw.top)
+
 你是否曾经疑惑过，当我们提到 `JSON` 的时候，我们在说什么？`JSON` 以 `JS` 开头，那么其与 `JavaScript` 的联系到底是什么？在这篇文章中，我们将尽可能通俗地了解 `JSON` 的起源、格式和意义，并解答一些常见的疑惑。
 
 :::important
