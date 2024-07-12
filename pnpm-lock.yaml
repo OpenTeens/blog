@@ -10,8 +10,8 @@ overrides:
 
 dependencies:
   '@astrojs/check':
-    specifier: ^0.8.1
-    version: 0.8.1(typescript@5.5.3)
+    specifier: ^0.7.0
+    version: 0.7.0(typescript@5.5.3)
   '@astrojs/rss':
     specifier: ^4.0.6
     version: 4.0.7
@@ -97,7 +97,7 @@ dependencies:
     specifier: ^3.4.4
     version: 3.4.4
   typescript:
-    specifier: ^5.5.3
+    specifier: ^5.5.2
     version: 5.5.3
   unist-util-visit:
     specifier: ^5.0.0
@@ -177,8 +177,8 @@ packages:
     resolution: {integrity: sha512-+562v9k4aI80m1+VuMHehNJWLOFjBnXn3tdOitzD0il5b7smkSBal4+a3oKiQTbrwMmN/TBUMDvbdoWDehgOww==}
     dev: false
 
-  /@astrojs/check@0.8.1(typescript@5.5.3):
-    resolution: {integrity: sha512-QTzCuiBWll3SLSe7OsWtWyZRbwChXwxM4Y0Jb84jdPOdYobzHad9ubU7V23qmK3Y0BNwgzCbEP5C5FPVitb31Q==}
+  /@astrojs/check@0.7.0(typescript@5.5.3):
+    resolution: {integrity: sha512-UTqwOeKNu9IYZmJXEeWnQuTdSd/pX58Hl4TUARsMlT97SVDL//kLBE4T/ctxRz6J573N87oE5ddtW/uOOnQTug==}
     hasBin: true
     peerDependencies:
       typescript: ^5.0.0
