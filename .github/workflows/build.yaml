@@ -36,11 +36,15 @@ jobs:
         run: |
           pnpm install
 
-      - name: Build & Deploy
+      - name: Build
         run: |
           pnpm build
 
-      - name: Deploy
+      - name: Upload
         uses: actions/upload-pages-artifact@v3
         with:
           path: "./dist"
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
