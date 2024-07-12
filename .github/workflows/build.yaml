@@ -5,6 +5,11 @@ on:
     branches:
       - main
 
+permissions: 
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -43,8 +48,12 @@ jobs:
       - name: Upload
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "./dist"
+          path: "dist"
 
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
