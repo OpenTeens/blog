@@ -1,0 +1,353 @@
+#nice {
+	--h2-color: #358aeb;
+	--text-color: rgb(89, 89, 89);
+	--hr-side-color: #fff0;
+	--hr-center-color: #A0A0A0;
+
+}
+
+@media(prefers-color-scheme: dark) {
+	#nice {
+		--h2-color: rgb(141, 141, 141);
+		--text-color: rgb(89, 89, 89);
+		--hr-side-color: transparent;
+		--hr-center-color: #909090;
+	}
+}
+
+#nice {
+	font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, "PingFang SC", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: 16px;
+	padding-right: 10px;
+	padding-left: 10px;
+	word-break: break-word;
+	overflow-wrap: break-word;
+	text-align: left;
+	line-height: 1.75;
+	color: var(--text-color);
+	letter-spacing: 2px;
+	background-size: 20px 20px;
+	background-position: center center;
+	margin-bottom: 0px;
+	visibility: visible;
+}
+
+#nice p {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	line-height: 26px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	word-spacing: 2px;
+	visibility: visible;
+}
+
+#nice h1 {
+	border-color: rgb(0, 0, 0) rgb(0, 0, 0) rgb(14, 138, 235);
+	margin: 30px 0px 15px;
+	align-items: unset;
+	background: none 0% 0% / auto no-repeat scroll padding-box border-box transparent;
+	border-style: none none solid;
+	border-width: 1px;
+	border-radius: 0px;
+	box-shadow: none;
+	display: block;
+	flex-direction: unset;
+	float: unset;
+	height: auto;
+	justify-content: unset;
+	line-height: 1.5em;
+	overflow: unset;
+	padding: 0px;
+	position: relative;
+	text-align: left;
+	text-shadow: none;
+	transform: none;
+	width: auto;
+	-webkit-box-reflect: unset;
+
+	font-size: 22px;
+	color: rgb(14, 138, 235);
+	line-height: 1.5em;
+	letter-spacing: 0em;
+	text-align: center;
+	font-weight: bold;
+	padding: 0px;
+	align-items: unset;
+	background: none 0% 0% / auto no-repeat scroll padding-box border-box transparent;
+	border-radius: 0px;
+	box-shadow: none;
+	content: unset;
+	display: block;
+	flex-direction: unset;
+	float: unset;
+	height: auto;
+	justify-content: unset;
+	margin: 0px;
+	overflow: unset;
+	position: relative;
+	text-indent: 0em;
+	text-shadow: none;
+	transform: none;
+	width: auto;
+	-webkit-box-reflect: unset;
+}
+
+#nice h2 {
+	margin: 30px 0px 15px;
+	align-items: unset;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: unset;
+	background-image: none;
+	background-origin: padding-box;
+	background-position: 0% 0%;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-style: none;
+	border-width: 1px;
+	border-color: rgb(0, 0, 0);
+	border-radius: 0px;
+	box-shadow: none;
+	display: block;
+	flex-direction: unset;
+	float: unset;
+	height: auto;
+	justify-content: unset;
+	line-height: 1.5em;
+	overflow: unset;
+	padding: 0px;
+	position: relative;
+	text-align: left;
+	text-shadow: none;
+	transform: none;
+	width: auto;
+	-webkit-box-reflect: unset;
+
+	font-size: 16px;
+	padding-left: 10px;
+	visibility: visible;
+	border-left: 5px solid rgb(112, 175, 237);
+	color: var(--h2-color);
+	line-height: 1;
+}
+
+/* 三级标题 */
+#nice h3 {
+	margin: 30px 0px 15px;
+	padding: 0px;
+	display: block;
+
+	font-size: 16px;
+	color: rgb(14, 136, 235);
+	line-height: 1.5em;
+	letter-spacing: 0em;
+	text-align: left;
+	font-weight: bold;
+	display: block;
+}
+
+#nice ul {
+	list-style-type: disc;
+	margin: 8px 0px;
+	padding: 0px 0px 0px 25px;
+	color: rgb(0, 0, 0);
+}
+
+#nice ol {
+	list-style-type: decimal;
+	margin: 8px 0px;
+	padding: 0px 0px 0px 25px;
+	color: rgb(0, 0, 0);
+}
+
+/* 列表内容，不要设置li
+ */
+#nice li {
+	color: rgb(1, 1, 1);
+	font-size: 15px;
+	line-height: 1.8em;
+	letter-spacing: 0em;
+	text-align: left;
+	font-weight: normal;
+}
+
+
+#nice blockquote {
+	margin: 20px 0px;
+	padding: 10px 10px 10px 20px;
+	border-style: none none none solid;
+	border-width: 3px;
+	border-color: #a7c6db;
+	border-radius: 0px;
+	background: none 0% 0% / auto no-repeat scroll padding-box border-box #a7c6db33;
+	width: auto;
+	height: auto;
+	box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+	display: block;
+	overflow: auto;
+}
+
+blockquote p {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+
+
+blockquote blockquote {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+/* 链接 
+ * border-bottom: 1px solid #009688;
+ */
+#nice a {
+	color: var(--text-color);
+	text-decoration: none;
+	border-style: none none solid none;
+	border-width: 1px;
+	border-color: #0e8aeb;
+	padding: 0 1px;
+	cursor: pointer;
+}
+
+/* 分隔线
+ * 粗细、样式和颜色
+ * border-top: 1px solid #3e3e3e;
+ */
+#nice hr {
+	border: 0;
+	border-radius: 1px;
+	height: 1px;
+	background: linear-gradient(90deg, var(--hr-side-color), var(--hr-center-color), var(--hr-side-color));
+}
+
+#nice img {}
+
+/* 行内代码 */
+#nice p code,
+#nice li code {
+	overflow-wrap: break-word;
+	padding: 2px 4px;
+	border-radius: 4px;
+	margin-right: 2px;
+	margin-left: 2px;
+	background-color: rgba(27, 31, 35, 0.05);
+	font-family: "Operator Mono", Consolas, Monaco, Menlo, monospace;
+	word-break: break-all;
+	font-size: 13px;
+	color: rgb(12, 104, 197);
+}
+
+/* 
+ * 代码块不换行 display: -webkit-box !important;
+ * 代码块换行 display: block;
+ */
+#nice pre code {
+	overflow-x: auto;
+	padding: 16px;
+	color: #abb2bf;
+	display: -webkit-box;
+	font-family: Operator Mono, Consolas, Monaco, Menlo, monospace;
+	font-size: 12px;
+	-webkit-overflow-scrolling: touch;
+	padding-top: 15px;
+	background: #282c34;
+	border-radius: 5px;
+}
+
+/*
+ * 表格内的单元格
+ * 字体大小 font-size: 16px;
+ * 边框 border: 1px solid #ccc;
+ * 内边距 padding: 5px 10px;
+ */
+#nice table {
+	border-collapse: collapse;
+}
+
+#nice table tr th {
+	min-width: 85px;
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+	line-height: 1.5em;
+	letter-spacing: 0em;
+	text-align: left;
+	font-weight: bold;
+	background: none 0% 0% / auto no-repeat scroll padding-box border-box rgb(240, 240, 240);
+	width: auto;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(204, 204, 204, 0.4);
+	border-radius: 0px;
+	padding: 5px 10px;
+}
+
+#nice table tr td {
+	min-width: 85px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(204, 204, 204, 0.4);
+	border-radius: 0px;
+	padding: 5px 10px;
+	box-sizing: border-box;
+}
+
+/* 
+ * 某一列表格列宽控制
+ * n 可以修改为具体数字，不修改时表示所有列
+ * 最小列宽 min-width: 85px;
+ */
+#nice table tr th:nth-of-type(n),
+#nice table tr td:nth-of-type(n) {
+	/* 注：请在大括号内改写！！！ */
+}
+
+/* 脚注文字 */
+#nice .footnote-word {
+	/* 注：请在大括号内改写！！！ */
+}
+
+/* 脚注上标 */
+#nice .footnote-ref {
+	/* 注：请在大括号内改写！！！ */
+}
+
+/* "参考资料"四个字 
+ * 内容 content: "参考资料";
+ */
+#nice .footnotes-sep:before {
+	/* 注：请在大括号内改写！！！ */
+}
+
+/* 参考资料编号 */
+#nice .footnote-num {
+	/* 注：请在大括号内改写！！！ */
+}
+
+/* 参考资料文字 */
+#nice .footnote-item p {
+	/* 注：请在大括号内改写！！！ */
+}
+
+/* 参考资料解释 */
+#nice .footnote-item p em {
+	/* 注：请在大括号内改写！！！ */
+}
+
+/* 行间公式
+ * 最大宽度 max-width: 300% !important;
+ */
+#nice .block-equation svg {
+	/* 注：请在大括号内改写！！！ */
+}
+
+/* 行内公式
+ */
+#nice .inline-equation svg {
+	/* 注：请在大括号内改写！！！ */
+}
