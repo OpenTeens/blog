@@ -1,12 +1,12 @@
 ---
-title: .sb3 Format
+title: .sb3 文件格式
+description: Scratch 如何保存 “图形化” 的程序？让我们一起探索 Scratch 的 .sb3 文件格式。
 published: 2024-07-12
-description: How Scratch stores out program?
-tags: 
-  - 黄瓜大帝
-  - Scratch
-  - TC3
-  - 开源知识库
+tags:
+    - 黄瓜大帝
+    - Scratch
+    - TC3
+    - 开源知识库
 category: "开源知识库"
 image: "./cover.jpg"
 ---
@@ -84,21 +84,21 @@ image: "./cover.jpg"
 
 ```json
 {
-  "opcode": "motion_movesteps",
-  "next": "c",
-  "parent": "b",
-  "inputs": {
-    "STEPS": [
-      1,
-      [
-        4,
-        "10"
-      ]
-    ]
-  },
-  "fields": {},
-  "shadow": false,
-  "topLevel": false
+    "opcode": "motion_movesteps",
+    "next": "c",
+    "parent": "b",
+    "inputs": {
+        "STEPS": [
+            1,
+            [
+                4,
+                "10"
+            ]
+        ]
+    },
+    "fields": {},
+    "shadow": false,
+    "topLevel": false
 }
 ```
 
@@ -122,15 +122,15 @@ Scratch 会为每个参数设置默认值。当你不填的时候，`shadow`就�
 ## 奇怪的 inputs
 慢着，上面的 `inputs`怎么这么奇怪？
 ```json
-  "inputs": {
-    "STEPS": [
-      1,
-      [
-        4,
-        "10"
-      ]
-    ]
-  },
+    "inputs": {
+        "STEPS": [
+            1,
+            [
+                4,
+                "10"
+            ]
+        ]
+    },
 ```
 这是个啥啊，丑死了！
 
