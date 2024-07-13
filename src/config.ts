@@ -44,28 +44,30 @@ export const navBarConfig: NavBarConfig = {
       url: 'https://github.com/OpenTeens', // Internal links should not include the base path, as it is automatically added
       external: true, // Show an external link icon and will open in a new tab
     },
-    {
-      name: 'CULIU',
-      url: 'https://www.culiutech.com',
-      external: true,
-    },
   ],
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: '/images/openteens.png', // Relative to the /public directory
+  avatar: '/images/openteens.png', // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'OpenTeens',
   bio: 'Empower Teenagers Through Open Source.',
   links: [
+    // {
+    //   name: 'Twitter',
+    //   icon: 'fa6-brands:twitter', // Visit https://icones.js.org/ for icon codes
+    //   // You will need to install the corresponding icon set if it's not already included
+    //   // `pnpm add @iconify-json/<icon-set-name>`
+    //   url: 'https://twitter.com',
+    // },
+    // {
+    //   name: 'Steam',
+    //   icon: 'fa6-brands:steam',
+    //   url: 'https://store.steampowered.com',
+    // },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
       url: 'https://github.com/OpenTeens',
-    },
-    {
-      name: 'CULIU',
-      icon: 'public/images/Culiu.png', // 修正后的路径
-      url: 'https://www.culiutech.com',
     },
   ],
 }
