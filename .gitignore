@@ -19,5 +19,7 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
-.vscode
 .vercel
+
+#vscode configuration files
+vscode/
