@@ -1,3 +1,24 @@
+# Add blog:
+1. install pnpm (`npm install -g pnpm`)
+2. install sharp (`pnpm add sharp`)
+3. create a new folder in `src/content/posts/` with the name of the blog
+4. create a new file named `index.md` in the folder, white your article
+5. add the following frontmatter to the file:
+```yaml
+---
+title: .sb3 文件格式
+description: Scratch 如何保存 “图形化” 的程序？让我们一起探索 Scratch 的 .sb3 文件格式。
+published: 2024-07-12
+tags:
+    - 黄瓜大帝
+    - Scratch
+    - TC3
+    - 开源知识库
+category: "开源知识库"
+image: "./cover.jpg"
+---
+```
+
 # 🍥Fuwari
 
 A static blog template built with [Astro](https://astro.build).
