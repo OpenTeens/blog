@@ -53,22 +53,10 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: '/images/openteens.png', // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: '/images/openteens.png', // Relative to the /public directory
   name: 'OpenTeens',
   bio: 'Empower Teenagers Through Open Source.',
   links: [
-    // {
-    //   name: 'Twitter',
-    //   icon: 'fa6-brands:twitter', // Visit https://icones.js.org/ for icon codes
-    //   // You will need to install the corresponding icon set if it's not already included
-    //   // `pnpm add @iconify-json/<icon-set-name>`
-    //   url: 'https://twitter.com',
-    // },
-    // {
-    //   name: 'Steam',
-    //   icon: 'fa6-brands:steam',
-    //   url: 'https://store.steampowered.com',
-    // },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
@@ -76,7 +64,7 @@ export const profileConfig: ProfileConfig = {
     },
     {
       name: 'CULIU',
-      icon: '/image/Culiu.png',
+      icon: 'public/images/Culiu.png', // 修正后的路径
       url: 'https://www.culiutech.com',
     },
   ],
