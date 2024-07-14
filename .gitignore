@@ -21,6 +21,6 @@ pnpm-debug.log*
 .DS_Store
 .vercel
 
-#vscode configuration files
-vscode/
+# IDE configuration files
+.vscode/
 .idea/
